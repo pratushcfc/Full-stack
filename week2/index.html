@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratush Devkota – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="video-container">
+    <video autoplay muted loop playsinline id="background-video">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>Pratush Devkota</h1>
+      <p>Frontend developer — building clean and user-friendly web experiences.</p>
+
+      <!-- CAT IMAGE -->
+      <img src="https://img.freepik.com/free-photo/portrait-beautiful-purebred-pussycat-with-shorthair-orange-collar-neck-sitting-floor-reacting-camera-flash-scared-looking-light-indoor_8353-12551.jpg?semt=ais_hybrid&w=740&q=80" alt="Cat image" class="cat-img">
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Pratush. I enjoy building simple and clean webpages using HTML, CSS and JavaScript. I’m learning step by step and always try to keep my designs neat and easy to use.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Layouts</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Simple Webpage</h3>
+        <p>A clean, responsive single-page site using HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Interactive Form</h3>
+        <p>A contact form with basic JS validation and user feedback.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <button type="submit">Send</button>
+    </form>
+    <div id="form-message"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 — Pratush Devkota Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "movies": [
+    {
+      "id": "2",
+      "title": "How to train your dragon",
+      "genre": "fantasty",
+      "year": 1994
+    },
+    {
+      "id": "3",
+      "title": "Dune",
+      "genre": "Sci-Fi",
+      "year": 2021
+    },
+    {
+      "id": "4",
+      "title": "Kingdom",
+      "genre": "Anime",
+      "year": 2011
+    },
+    {
+      "id": "5",
+      "title": "Mission Impossible",
+      "genre": "Action",
+      "year": 2025
+    },
+    {
+      "id": "5",
+      "title": "pratush",
+      "genre": "crime",
+      "year": 2025
+    },
+    {
+      "id": "6",
+      "title": ";-;",
+      "genre": ";-;",
+      "year": 0
+    }
+  ]
+}
